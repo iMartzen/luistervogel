@@ -1,0 +1,58 @@
+CREDITS EN BRONVERMELDING
+========================
+
+Website: Luistervogel
+Doel: Studiemateriaal voor de SOVON Winter en Watervogels cursus
+Datum: Oktober 2025
+
+GELUIDSOPNAMEN
+--------------
+Alle vogelgeluiden zijn afkomstig van Xeno-canto (www.xeno-canto.org)
+Xeno-canto is een website gewijd aan het delen van vogelgeluiden van over de hele wereld.
+
+De opnamen worden weergegeven via Xeno-canto's embed functionaliteit, wat zorgt voor:
+- Betrouwbare weergave van audiobestanden
+- Directe link naar de originele opname
+- Credits aan de recordist op de embed player
+- Altijd actuele en werkende links
+
+De opnamen zijn beschikbaar onder verschillende Creative Commons licenties.
+Hartelijk dank aan alle recordisten die hun opnamen hebben gedeeld.
+
+TECHNOLOGIE
+-----------
+- HTML5 voor de structuur
+- CSS3 voor de styling
+- JavaScript voor interactiviteit
+- Bootstrap 5.3.0 voor responsive design (MIT License)
+  https://getbootstrap.com
+
+SOVON
+-----
+Deze website is gemaakt als studiemateriaal voor de SOVON Winter en Watervogels cursus.
+SOVON Vogelonderzoek Nederland is een onafhankelijke organisatie die zich 
+richt op het verzamelen en analyseren van gegevens over vogels.
+Website: www.sovon.nl
+
+EDUCATIEF DOEL
+--------------
+Deze website is uitsluitend bedoeld voor educatieve doeleinden en heeft 
+geen commercieel oogmerk. Het materiaal helpt cursisten bij het leren 
+herkennen van winter- en watervogels op basis van hun geluiden.
+
+DISCLAIMER
+----------
+De website is met zorg samengesteld, maar er kunnen geen rechten aan 
+worden ontleend. Voor wetenschappelijk nauwkeurige informatie wordt 
+verwezen naar officiële SOVON publicaties en veldgidsen.
+
+PRIVACY
+-------
+Deze website verzamelt geen persoonlijke gegevens en maakt geen gebruik 
+van cookies of tracking.
+
+CONTACT
+-------
+Voor vragen over de SOVON cursus, neem contact op via www.sovon.nl
+
+Laatste update: Oktober 2025

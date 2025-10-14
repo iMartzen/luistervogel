@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branta Ganzen - Luistervogel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🪿 Luistervogel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="back-button">
+            <a href="index.html" class="btn btn-outline-success">← Terug naar overzicht</a>
+        </div>
+
+        <h1 class="mb-4">🪿 Branta Ganzen</h1>
+        <p class="lead">De Branta ganzen hebben vaak een zwart-wit kleurpatroon en zijn kleiner dan de Anser ganzen. Ze hebben karakteristieke geluiden.</p>
+
+        <!-- Brandgans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Brandgans</h3>
+                <p class="species-latin">Branta leucopsis</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Hoog, blaffend, kakelend geluid. Een zeer kenmerkend geluid dat lijkt op blaffende honden.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Barnacle Goose Netherlands"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/brandgans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Roodhalsgans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Roodhalsgans</h3>
+                <p class="species-latin">Branta ruficollis</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Hoog, scherp "kik-yoik" of "ki-kwa". Een opvallend tweelettergrepig geluid dat hoger is dan andere ganzen.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Red-breasted Goose"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/roodhalsgans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Rotgans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Rotgans</h3>
+                <p class="species-latin">Branta bernicla bernicla</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Laag, grommend "rott rott" of "rrronk". Een zachter geluid dan de andere ganzen.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Dark-bellied Brent Goose Netherlands"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/rotgans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Witbuikrotgans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Witbuikrotgans</h3>
+                <p class="species-latin">Branta bernicla hrota</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Vergelijkbaar met de Rotgans, maar iets hoger en helderder "rronk" geluid.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Pale-bellied Brent Goose"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/witbuikrotgans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Zwarte Rotgans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Zwarte Rotgans</h3>
+                <p class="species-latin">Branta bernicla nigricans</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Lager en rollender "rrolk" geluid, donkerder van toon dan andere rotganzen.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Black Brant"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/zwarte-rotgans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Kleine Canadese Gans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Kleine Canadese Gans</h3>
+                <p class="species-latin">Branta hutchinsii</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Hoger en sneller "ka-ronk" dan de Grote Canadese Gans. Minder luid en trompetterend.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Cackling Goose"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/kleine-canadese-gans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Grote Canadese Gans -->
+        <div class="card species-card">
+            <div class="species-header bg-success">
+                <h3 class="species-name">Grote Canadese Gans</h3>
+                <p class="species-latin">Branta canadensis</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Luide, trompetterende "ah-honk" of "ka-ronk". Een zeer luid en opvallend geluid dat ver draagt.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Canada Goose Netherlands"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/branta/grote-canadese-gans.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Studiemateriaal voor de SOVON Winter en Watervogels cursus</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

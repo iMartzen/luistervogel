@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Luistervogel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🎯 Luistervogel Quiz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="quiz.html">Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="back-button">
+            <a href="index.html" class="btn btn-outline-warning">← Terug naar overzicht</a>
+        </div>
+
+        <div class="text-center mb-4">
+            <h1 class="display-4">🎯 Vogel Herkenningsquiz</h1>
+            <p class="lead">Test je kennis van eenden- en ganzengeluiden!</p>
+            <p class="text-muted">Luister naar het geluid en kies het juiste antwoord</p>
+        </div>
+
+        <div class="quiz-container">
+            <!-- Progress bar -->
+            <div class="quiz-progress mb-4">
+                <div class="progress" style="height: 30px;">
+                    <div id="quiz-progress" class="progress-bar bg-warning" role="progressbar" style="width: 0%">
+                        Vraag 0 van 10
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz content -->
+            <div class="quiz-question">
+                <h3 id="quiz-question-number">Vraag 1</h3>
+                <p class="lead mb-3">Luister naar dit vogelgeluid:</p>
+                
+                <div id="quiz-audio" class="mb-4">
+                    <!-- Audio player will be inserted here by JavaScript -->
+                </div>
+
+                <p class="fw-bold mb-3">Welke vogel hoor je?</p>
+                
+                <div id="quiz-options" class="quiz-options">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+
+                <div id="quiz-feedback" class="quiz-feedback d-none">
+                    <!-- Feedback will be inserted here -->
+                </div>
+
+                <button id="next-question-btn" class="btn btn-warning btn-lg mt-4 d-none" onclick="nextQuestion()">
+                    Volgende vraag →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Studiemateriaal voor de SOVON Winter en Watervogels cursus</p>
+            <p class="text-muted small">Veel succes met de quiz!</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

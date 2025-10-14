@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotische Eenden - Luistervogel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🦆 Luistervogel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="back-button">
+            <a href="index.html" class="btn btn-outline-primary">← Terug naar overzicht</a>
+        </div>
+
+        <h1 class="mb-4">🦆 Exotische Eenden</h1>
+        <p class="lead">Exotische eendensoorten die oorspronkelijk niet in Nederland voorkomen, maar wel in het wild worden waargenomen.</p>
+
+        <!-- Rosse Stekelstaart -->
+        <div class="card species-card">
+            <div class="species-header">
+                <h3 class="species-name">Rosse Stekelstaart</h3>
+                <p class="species-latin">Oxyura jamaicensis</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Zacht, tikkend geluid tijdens balts. Het mannetje maakt een karakteristiek "plop-plop-plop" geluid.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Ruddy Duck"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/exotisch/rosse-stekelstaart.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Mandarijneend -->
+        <div class="card species-card">
+            <div class="species-header">
+                <h3 class="species-name">Mandarijneend</h3>
+                <p class="species-latin">Aix galericulata</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Zacht, fluitend "uieb" geluid. Het mannetje maakt een opvallend stijgend fluitje.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Mandarin Duck"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/exotisch/mandarijneend.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Muskuseend -->
+        <div class="card species-card">
+            <div class="species-header">
+                <h3 class="species-name">Muskuseend</h3>
+                <p class="species-latin">Cairina moschata</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Zacht, sissend geluid. Het mannetje maakt een karakteristiek "pfffst" geluid, veel zachter dan andere eenden.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Muscovy Duck"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/exotisch/muskuseend.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Carolinaeend -->
+        <div class="card species-card">
+            <div class="species-header">
+                <h3 class="species-name">Carolinaeend</h3>
+                <p class="species-latin">Aix sponsa</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Scherp "oe-eek" of "jiii-iik" geluid. Het vrouwtje maakt een opvallend scherp geluid.
+                    <br><small class="text-muted">Audio nog toe te voegen - Zoek op Xeno-canto: "Wood Duck"</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/exotisch/carolinaeend.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Studiemateriaal voor de SOVON Winter en Watervogels cursus</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
