@@ -10,7 +10,7 @@ Luistervogel is een educatieve website ontwikkeld als studiemateriaal voor de **
 
 - **6 categorieën vogels:**
   - Grondeleenden
-  - Duikereenden
+  - duikeenden
   - Exotische Eenden
   - Anser Ganzen
   - Branta Ganzen
@@ -37,7 +37,7 @@ Bezoek dan `http://localhost:8000` in je browser.
 
 - `index.html` - Hoofdpagina met overzicht van alle categorieën
 - `grondeleenden.html` - Pagina met grondeleenden
-- `duikereenden.html` - Pagina met duikereenden
+- `duikeenden.html` - Pagina met duikeenden
 - `exotische-eenden.html` - Pagina met exotische eenden
 - `anser-ganzen.html` - Pagina met Anser ganzen
 - `branta-ganzen.html` - Pagina met Branta ganzen

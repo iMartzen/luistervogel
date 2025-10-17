@@ -10,16 +10,16 @@ const birdsData = {
         { name: 'Smient', latin: 'Mareca penelope', audio: 'audio/grondeleenden/smient.mp3', description: 'Helder fluitend "whiuu".' },
         { name: 'Krooneend', latin: 'Netta rufina', audio: 'audio/grondeleenden/krooneend.mp3', description: 'Zacht, fluisterend "uiet".' }
     ],
-    duikereenden: [
-        { name: 'Kuifduiker', latin: 'Aythya fuligula', audio: 'audio/duikereenden/kuifduiker.mp3', description: 'Zacht, grommend "kurr-kurr".' },
-        { name: 'Tafeleend', latin: 'Aythya ferina', audio: 'audio/duikereenden/tafeleend.mp3', description: 'Laag, krassend "krraa".' },
-        { name: 'Topper', latin: 'Aythya marila', audio: 'audio/duikereenden/topper.mp3', description: 'Diep, grommend "krrouw".' },
-        { name: 'Witoogeend', latin: 'Aythya nyroca', audio: 'audio/duikereenden/witoogeend.mp3', description: 'Zacht, fluisterend "uiet".' },
-        { name: 'Brilduiker', latin: 'Bucephala clangula', audio: 'audio/duikereenden/brilduiker.mp3', description: 'Scherp, knarend "pieee-kaaa".' },
-        { name: 'Nonnetje', latin: 'Mergellus albellus', audio: 'audio/duikereenden/nonnetje.mp3', description: 'Zacht, piepend "krrrek".' },
-        { name: 'Middelste Zaagbek', latin: 'Mergus serrator', audio: 'audio/duikereenden/middelste-zaagbek.mp3', description: 'Zacht, krassend "krraa-krraa".' },
-        { name: 'Grote Zaagbek', latin: 'Mergus merganser', audio: 'audio/duikereenden/grote-zaagbek.mp3', description: 'Laag, krassend "uig-a".' },
-        { name: 'Eidereend', latin: 'Somateria mollissima', audio: 'audio/duikereenden/eidereend.mp3', description: 'Karakteristiek "aa-uuu" geluid.' }
+    duikeenden: [
+        { name: 'Kuifeend', latin: 'Aythya fuligula', audio: 'audio/duikeenden/kuifeend.mp3', description: 'Zacht, grommend "kurr-kurr".' },
+        { name: 'Tafeleend', latin: 'Aythya ferina', audio: 'audio/duikeenden/tafeleend.mp3', description: 'Laag, krassend "krraa".' },
+        { name: 'Topper', latin: 'Aythya marila', audio: 'audio/duikeenden/topper.mp3', description: 'Diep, grommend "krrouw".' },
+        { name: 'Witoogeend', latin: 'Aythya nyroca', audio: 'audio/duikeenden/witoogeend.mp3', description: 'Zacht, fluisterend "uiet".' },
+        { name: 'Brilduiker', latin: 'Bucephala clangula', audio: 'audio/duikeenden/brilduiker.mp3', description: 'Scherp, knarend "pieee-kaaa".' },
+        { name: 'Nonnetje', latin: 'Mergellus albellus', audio: 'audio/duikeenden/nonnetje.mp3', description: 'Zacht, piepend "krrrek".' },
+        { name: 'Middelste Zaagbek', latin: 'Mergus serrator', audio: 'audio/duikeenden/middelste-zaagbek.mp3', description: 'Zacht, krassend "krraa-krraa".' },
+        { name: 'Grote Zaagbek', latin: 'Mergus merganser', audio: 'audio/duikeenden/grote-zaagbek.mp3', description: 'Laag, krassend "uig-a".' },
+        { name: 'Eidereend', latin: 'Somateria mollissima', audio: 'audio/duikeenden/eidereend.mp3', description: 'Karakteristiek "aa-uuu" geluid.' }
     ],
     exotischeEenden: [
         { name: 'Rosse Stekelstaart', latin: 'Oxyura jamaicensis', audio: 'audio/exotisch/rosse-stekelstaart.mp3', description: 'Zacht, tikkend "plop-plop-plop".' },
