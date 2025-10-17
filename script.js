@@ -1,57 +1,57 @@
 // Data voor alle vogels en hun geluiden (met audio file paths)
 const birdsData = {
     grondeleenden: [
-        { name: 'Krakeend', latin: 'Mareca strepera', audio: 'audio/grondeleenden/krakeend.mp3', description: 'Zacht, krakend geluid.' },
-        { name: 'Wilde Eend', latin: 'Anas platyrhynchos', audio: 'audio/grondeleenden/wilde-eend.mp3', description: 'De bekende "kwek kwek" roep.' },
-        { name: 'Slobeend', latin: 'Spatula clypeata', audio: 'audio/grondeleenden/slobeend.mp3', description: 'Zacht "tuk-tuk" geluid.' },
-        { name: 'Pijlstaart', latin: 'Anas acuta', audio: 'audio/grondeleenden/pijlstaart.mp3', description: 'Zacht, melodieus "prüp".' },
-        { name: 'Wintertaling', latin: 'Anas crecca', audio: 'audio/grondeleenden/wintertaling.mp3', description: 'Hoog, fluisterend "kriek".' },
-        { name: 'Zomertaling', latin: 'Spatula querquedula', audio: 'audio/grondeleenden/zomertaling.mp3', description: 'Droog, rattend "krrrek-krrrek".' },
-        { name: 'Smient', latin: 'Mareca penelope', audio: 'audio/grondeleenden/smient.mp3', description: 'Helder fluitend "whiuu".' },
-        { name: 'Krooneend', latin: 'Netta rufina', audio: 'audio/grondeleenden/krooneend.mp3', description: 'Zacht, fluisterend "uiet".' }
+        { name: 'Krakeend', latin: 'Mareca strepera', audio: 'audio/grondeleenden/XC615261 - Krakeend - Mareca strepera strepera.mp3', description: 'Zacht, krakend geluid.' },
+        { name: 'Wilde Eend', latin: 'Anas platyrhynchos', audio: 'audio/grondeleenden/XC591701 - Wilde Eend - Anas platyrhynchos.mp3', description: 'De bekende "kwek kwek" roep.' },
+        { name: 'Slobeend', latin: 'Spatula clypeata', audio: 'audio/grondeleenden/XC871138 - Slobeend - Spatula clypeata.wav', description: 'Zacht "tuk-tuk" geluid.' },
+        { name: 'Pijlstaart', latin: 'Anas acuta', audio: 'audio/grondeleenden/XC161349 - Pijlstaart - Anas acuta.mp3', description: 'Zacht, melodieus "prüp".' },
+        { name: 'Wintertaling', latin: 'Anas crecca', audio: 'audio/grondeleenden/XC998226 - Wintertaling - Anas crecca.mp3', description: 'Hoog, fluisterend "kriek".' },
+        { name: 'Zomertaling', latin: 'Spatula querquedula', audio: 'audio/grondeleenden/XC547437 - Zomertaling - Spatula querquedula.mp3', description: 'Droog, rattend "krrrek-krrrek".' },
+        { name: 'Smient', latin: 'Mareca penelope', audio: 'audio/grondeleenden/XC1006871 - Smient - Mareca penelope.wav', description: 'Helder fluitend "whiuu".' },
+        { name: 'Krooneend', latin: 'Netta rufina', audio: 'audio/grondeleenden/XC357498 - Krooneend - Netta rufina.mp3', description: 'Zacht, fluisterend "uiet".' }
     ],
     duikeenden: [
-        { name: 'Kuifeend', latin: 'Aythya fuligula', audio: 'audio/duikeenden/kuifeend.mp3', description: 'Zacht, grommend "kurr-kurr".' },
-        { name: 'Tafeleend', latin: 'Aythya ferina', audio: 'audio/duikeenden/tafeleend.mp3', description: 'Laag, krassend "krraa".' },
-        { name: 'Topper', latin: 'Aythya marila', audio: 'audio/duikeenden/topper.mp3', description: 'Diep, grommend "krrouw".' },
-        { name: 'Witoogeend', latin: 'Aythya nyroca', audio: 'audio/duikeenden/witoogeend.mp3', description: 'Zacht, fluisterend "uiet".' },
-        { name: 'Brilduiker', latin: 'Bucephala clangula', audio: 'audio/duikeenden/brilduiker.mp3', description: 'Scherp, knarend "pieee-kaaa".' },
-        { name: 'Nonnetje', latin: 'Mergellus albellus', audio: 'audio/duikeenden/nonnetje.mp3', description: 'Zacht, piepend "krrrek".' },
-        { name: 'Middelste Zaagbek', latin: 'Mergus serrator', audio: 'audio/duikeenden/middelste-zaagbek.mp3', description: 'Zacht, krassend "krraa-krraa".' },
-        { name: 'Grote Zaagbek', latin: 'Mergus merganser', audio: 'audio/duikeenden/grote-zaagbek.mp3', description: 'Laag, krassend "uig-a".' },
-        { name: 'Eidereend', latin: 'Somateria mollissima', audio: 'audio/duikeenden/eidereend.mp3', description: 'Karakteristiek "aa-uuu" geluid.' }
+        { name: 'Kuifeend', latin: 'Aythya fuligula', audio: 'audio/duikeenden/XC361992 - Kuifeend - Aythya fuligula.mp3', description: 'Zacht, grommend "kurr-kurr".' },
+        { name: 'Tafeleend', latin: 'Aythya ferina', audio: 'audio/duikeenden/XC797792 - Tafeleend - Aythya ferina.wav', description: 'Laag, krassend "krraa".' },
+        { name: 'Topper', latin: 'Aythya marila', audio: 'audio/duikeenden/XC44265 - Topper - Aythya marila.mp3', description: 'Diep, grommend "krrouw".' },
+        { name: 'Witoogeend', latin: 'Aythya nyroca', audio: 'audio/duikeenden/XC424887 - Witoogeend - Aythya nyroca.mp3', description: 'Zacht, fluisterend "uiet".' },
+        { name: 'Brilduiker', latin: 'Bucephala clangula', audio: 'audio/duikeenden/XC998246 - Brilduiker - Bucephala clangula.mp3', description: 'Scherp, knarend "pieee-kaaa".' },
+        { name: 'Nonnetje', latin: 'Mergellus albellus', audio: 'audio/duikeenden/XC608887 - Nonnetje - Mergellus albellus.mp3', description: 'Zacht, piepend "krrrek".' },
+        { name: 'Middelste Zaagbek', latin: 'Mergus serrator', audio: 'audio/duikeenden/XC661188 - Middelste Zaagbek - Mergus serrator.mp3', description: 'Zacht, krassend "krraa-krraa".' },
+        { name: 'Grote Zaagbek', latin: 'Mergus merganser', audio: 'audio/duikeenden/XC431479 - Grote Zaagbek - Mergus merganser.mp3', description: 'Laag, krassend "uig-a".' },
+        { name: 'Eidereend', latin: 'Somateria mollissima', audio: 'audio/duikeenden/XC998232 - Eider - Somateria mollissima.mp3', description: 'Karakteristiek "aa-uuu" geluid.' }
     ],
     exotischeEenden: [
-        { name: 'Rosse Stekelstaart', latin: 'Oxyura jamaicensis', audio: 'audio/exotisch/rosse-stekelstaart.mp3', description: 'Zacht, tikkend "plop-plop-plop".' },
-        { name: 'Mandarijneend', latin: 'Aix galericulata', audio: 'audio/exotisch/mandarijneend.mp3', description: 'Zacht, fluitend "uieb".' },
-        { name: 'Muskuseend', latin: 'Cairina moschata', audio: 'audio/exotisch/muskuseend.mp3', description: 'Zacht, sissend "pfffst".' },
-        { name: 'Carolinaeend', latin: 'Aix sponsa', audio: 'audio/exotisch/carolinaeend.mp3', description: 'Scherp "oe-eek" of "jiii-iik".' }
+        { name: 'Rosse Stekelstaart', latin: 'Oxyura jamaicensis', audio: 'audio/exotischeenden/XC665164 - Rosse Stekelstaart - Oxyura jamaicensis.mp3', description: 'Zacht, tikkend "plop-plop-plop".' },
+        { name: 'Mandarijneend', latin: 'Aix galericulata', audio: 'audio/exotischeenden/XC721862 - Mandarijneend - Aix galericulata.mp3', description: 'Zacht, fluitend "uieb".' },
+        { name: 'Muskuseend', latin: 'Cairina moschata', audio: 'audio/exotischeenden/XC714003 - Muskuseend - Cairina moschata.mp3', description: 'Zacht, sissend "pfffst".' },
+        { name: 'Carolinaeend', latin: 'Aix sponsa', audio: 'audio/exotischeenden/XC600081 - Carolina-eend - Aix sponsa.mp3', description: 'Scherp "oe-eek" of "jiii-iik".' }
     ],
     anserGanzen: [
         { name: 'Grauwe Gans', latin: 'Anser anser', audio: 'audio/anser/XC1037223 - Grauwe Gans - Anser anser.wav', description: 'Luid, nasaal "gak-gak".' },
-        { name: 'Kolgans', latin: 'Anser albifrons', audio: 'audio/anser/kolgans.mp3', description: 'Hoog, jodelend, kakelend gegak.' },
-        { name: 'Dwerggans', latin: 'Anser erythropus', audio: 'audio/anser/dwerggans.mp3', description: 'Hoger en scherper dan kolgans.' },
-        { name: 'Kleine Rietgans', latin: 'Anser brachyrhynchus', audio: 'audio/anser/kleine-rietgans.mp3', description: 'Hoge, rauwe "wink-wink".' },
-        { name: 'Toendrarietgans', latin: 'Anser serrirostris', audio: 'audio/anser/toendrarietgans.mp3', description: 'Laag en fagotachtig.' },
-        { name: 'Taigarietgans', latin: 'Anser fabalis', audio: 'audio/anser/taigarietgans.mp3', description: 'Laag, donker gegak.' }
+        { name: 'Kolgans', latin: 'Anser albifrons', audio: 'audio/anser/XC625132 - Kolgans - Anser albifrons.mp3', description: 'Hoog, jodelend, kakelend gegak.' },
+        { name: 'Dwerggans', latin: 'Anser erythropus', audio: 'audio/anser/XC674221 - Dwerggans - Anser erythropus.mp3', description: 'Hoger en scherper dan kolgans.' },
+        { name: 'Kleine Rietgans', latin: 'Anser brachyrhynchus', audio: 'audio/anser/XC591415 - Kleine Rietgans - Anser brachyrhynchus.mp3', description: 'Hoge, rauwe "wink-wink".' },
+        { name: 'Toendrarietgans', latin: 'Anser serrirostris', audio: 'audio/anser/XC944822 - Toendrarietgans - Anser serrirostris.wav', description: 'Laag en fagotachtig.' },
+        { name: 'Taigarietgans', latin: 'Anser fabalis', audio: 'audio/anser/XC769870 - Taigarietgans - Anser fabalis.mp3', description: 'Laag, donker gegak.' }
     ],
     brantaGanzen: [
-        { name: 'Brandgans', latin: 'Branta leucopsis', audio: 'audio/branta/brandgans.mp3', description: 'Hoog, blaffend, kakelend geluid.' },
-        { name: 'Roodhalsgans', latin: 'Branta ruficollis', audio: 'audio/branta/roodhalsgans.mp3', description: 'Hoog, scherp "kik-yoik".' },
-        { name: 'Rotgans', latin: 'Branta bernicla bernicla', audio: 'audio/branta/rotgans.mp3', description: 'Laag, grommend "rott rott".' },
-        { name: 'Witbuikrotgans', latin: 'Branta bernicla hrota', audio: 'audio/branta/witbuikrotgans.mp3', description: 'Iets hoger "rronk" geluid.' },
-        { name: 'Zwarte Rotgans', latin: 'Branta bernicla nigricans', audio: 'audio/branta/zwarte-rotgans.mp3', description: 'Lager, rollender "rrolk".' },
-        { name: 'Kleine Canadese Gans', latin: 'Branta hutchinsii', audio: 'audio/branta/kleine-canadese-gans.mp3', description: 'Hoger, sneller "ka-ronk".' },
-        { name: 'Grote Canadese Gans', latin: 'Branta canadensis', audio: 'audio/branta/grote-canadese-gans.mp3', description: 'Luide "ah-honk".' }
+        { name: 'Brandgans', latin: 'Branta leucopsis', audio: 'audio/branta/XC632772 - Brandgans - Branta leucopsis.mp3', description: 'Hoog, blaffend, kakelend geluid.' },
+        { name: 'Roodhalsgans', latin: 'Branta ruficollis', audio: 'audio/branta/XC769279 - Roodhalsgans - Branta ruficollis.mp3', description: 'Hoog, scherp "kik-yoik".' },
+        { name: 'Rotgans', latin: 'Branta bernicla bernicla', audio: 'audio/branta/XC973114 - Rotgans - Branta bernicla bernicla.wav', description: 'Laag, grommend "rott rott".' },
+        { name: 'Witbuikrotgans', latin: 'Branta bernicla hrota', audio: 'audio/branta/XC352831 - Rotgans - Branta bernicla hrota.mp3', description: 'Iets hoger "rronk" geluid.' },
+        { name: 'Zwarte Rotgans', latin: 'Branta bernicla nigricans', audio: 'audio/branta/XC41865 - Rotgans - Branta bernicla nigricans.mp3', description: 'Lager, rollender "rrolk".' },
+        { name: 'Kleine Canadese Gans', latin: 'Branta hutchinsii', audio: 'audio/branta/XC144036 - Kleine Canadese Gans - Branta hutchinsii leucopareia.mp3', description: 'Hoger, sneller "ka-ronk".' },
+        { name: 'Grote Canadese Gans', latin: 'Branta canadensis', audio: 'audio/branta/XC816269 - Grote Canadese Gans - Branta canadensis.mp3', description: 'Luide "ah-honk".' }
     ],
     exotischeGanzen: [
-        { name: 'Soepgans', latin: 'Anser cygnoides domesticus', audio: 'audio/exotisch/soepgans.mp3', description: 'Luid, nasaal "ga-ga".' },
-        { name: 'Sneeuw & Ross\' gans', latin: 'Anser caerulescens / Chen rossii', audio: 'audio/exotisch/sneeuwgans.mp3', description: 'Hoog, kakelend "kluk-kluk".' },
-        { name: 'Nijlgans', latin: 'Alopochen aegyptiaca', audio: 'audio/exotisch/nijlgans.mp3', description: 'Luid, krassend "haaa-haaa".' },
-        { name: 'Casarca', latin: 'Tadorna ferruginea', audio: 'audio/exotisch/casarca.mp3', description: 'Diep, rollend "aang aang".' },
-        { name: 'Indische Gans', latin: 'Anser indicus', audio: 'audio/exotisch/indische-gans.mp3', description: 'Nasaal, kakelend "ahng-ahng".' },
-        { name: 'Chinese Knobbelgans', latin: 'Anser cygnoides', audio: 'audio/exotisch/chinese-knobbelgans.mp3', description: 'Luid, trompetterend "ohng-ohng".' },
-        { name: 'Bergeend', latin: 'Tadorna tadorna', audio: 'audio/exotisch/bergeend.mp3', description: 'Snelle reeks "tju-tju-tju".' }
+        { name: 'Sneeuwgans', latin: 'Anser caerulescens', audio: 'audio/exotischganzen/XC771795 - Sneeuwgans - Anser caerulescens.wav', description: 'Hoog, kakelend "kluk-kluk".' },
+        { name: 'Ross\' Gans', latin: 'Anser rossii', audio: 'audio/exotischganzen/XC452082 - Ross\' Gans - Anser rossii.mp3', description: 'Hoger en zachter dan Sneeuwgans.' },
+        { name: 'Nijlgans', latin: 'Alopochen aegyptiaca', audio: 'audio/exotischganzen/XC800286 - Nijlgans - Alopochen aegyptiaca.mp3', description: 'Luid, krassend "haaa-haaa".' },
+        { name: 'Casarca', latin: 'Tadorna ferruginea', audio: 'audio/exotischganzen/XC872213 - Casarca - Tadorna ferruginea.wav', description: 'Diep, rollend "aang aang".' },
+        { name: 'Indische Gans', latin: 'Anser indicus', audio: 'audio/exotischganzen/XC452244 - Indische Gans - Anser indicus.mp3', description: 'Nasaal, kakelend "ahng-ahng".' },
+        { name: 'Chinese Knobbelgans', latin: 'Anser cygnoides', audio: 'audio/exotischganzen/XC463609 - Zwaangans - Anser cygnoides.mp3', description: 'Luid, trompetterend "ohng-ohng".' },
+        { name: 'Bergeend', latin: 'Tadorna tadorna', audio: 'audio/exotischganzen/XC911533 - Bergeend - Tadorna tadorna.mp3', description: 'Snelle reeks "tju-tju-tju".' }
     ]
 };
 
