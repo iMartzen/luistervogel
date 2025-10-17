@@ -10,14 +10,14 @@ GELUIDSOPNAMEN
 Alle vogelgeluiden zijn afkomstig van Xeno-canto (www.xeno-canto.org)
 Xeno-canto is een website gewijd aan het delen van vogelgeluiden van over de hele wereld.
 
-De opnamen worden weergegeven via Xeno-canto's embed functionaliteit, wat zorgt voor:
-- Betrouwbare weergave van audiobestanden
-- Directe link naar de originele opname
-- Credits aan de recordist op de embed player
-- Altijd actuele en werkende links
+De opnamen zijn gedownload van Xeno-canto en lokaal opgeslagen voor educatief gebruik.
+Bij elke opname staat het Xeno-canto catalogusnummer (XC-nummer) vermeld, zodat:
+- De originele opname eenvoudig terug te vinden is op xeno-canto.org
+- De recordist correct wordt gecrediteerd
+- Gebruikers meer informatie kunnen opzoeken over de opname
 
 De opnamen zijn beschikbaar onder verschillende Creative Commons licenties.
-Hartelijk dank aan alle recordisten die hun opnamen hebben gedeeld.
+Hartelijk dank aan alle recordisten die hun opnamen hebben gedeeld op Xeno-canto.
 
 TECHNOLOGIE
 -----------
