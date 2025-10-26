@@ -51,6 +51,11 @@ body {
     background: linear-gradient(135deg, #198754 0%, #146c43 100%) !important;
 }
 
+/* Rode header voor zwanenpagina's */
+.species-header.bg-danger {
+    background: linear-gradient(135deg, #dc3545 0%, #b02a37 100%) !important;
+}
+
 .species-name {
     font-size: 1.5rem;
     font-weight: 600;

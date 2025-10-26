@@ -52,6 +52,11 @@ const birdsData = {
         { name: 'Indische Gans', latin: 'Anser indicus', audio: 'audio/exotischganzen/XC452244 - Indische Gans - Anser indicus.mp3', description: 'Nasaal, kakelend "ahng-ahng".' },
         { name: 'Chinese Knobbelgans', latin: 'Anser cygnoides', audio: 'audio/exotischganzen/XC463609 - Zwaangans - Anser cygnoides.mp3', description: 'Luid, trompetterend "ohng-ohng".' },
         { name: 'Bergeend', latin: 'Tadorna tadorna', audio: 'audio/exotischganzen/XC911533 - Bergeend - Tadorna tadorna.mp3', description: 'Snelle reeks "tju-tju-tju".' }
+    ],
+    zwanen: [
+        { name: 'Wilde Zwaan', latin: 'Cygnus cygnus', audio: 'audio/zwanen/XC670365 - Whooper Swan - Cygnus cygnus.mp3', description: 'Luide, trompetachtige roep.' },
+        { name: 'Kleine Zwaan', latin: 'Cygnus columbianus', audio: 'audio/zwanen/XC591621 - Tundra Swan - Cygnus columbianus.mp3', description: 'Hoger en zachter dan Wilde zwaan.' },
+        { name: 'Knobbelzwaan', latin: 'Cygnus olor', audio: 'audio/zwanen/XC669629 - Mute Swan - Cygnus olor.mp3', description: 'Blazend geluid van vleugels.' }
     ]
 };
 

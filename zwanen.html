@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zwanen - Luistervogel</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🦢 Luistervogel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="back-button">
+            <a href="index.html" class="btn btn-outline-danger">← Terug naar overzicht</a>
+        </div>
+
+        <h1 class="mb-4">🦢 Zwanen</h1>
+        <p class="lead">Zwanen zijn de grootste watervogels van Nederland. Hun majestueuze verschijning en krachtige geluiden maken ze onmiskenbaar.</p>
+
+        <!-- Wilde Zwaan -->
+        <div class="card species-card">
+            <div class="species-header bg-danger">
+                <h3 class="species-name">Wilde Zwaan</h3>
+                <p class="species-latin">Cygnus cygnus</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Luide, trompetachtige roep. Sonoor en ver dragend geluid dat lijkt op een trompet of hoorn.
+                    <br><small class="text-muted">Bron: Xeno-canto XC670365</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/zwanen/XC670365 - Whooper Swan - Cygnus cygnus.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Kleine Zwaan -->
+        <div class="card species-card">
+            <div class="species-header bg-danger">
+                <h3 class="species-name">Kleine Zwaan</h3>
+                <p class="species-latin">Cygnus columbianus</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Hoger en zachter dan Wilde zwaan, kakelend en jodelend. Minder krachtig maar wel melodieus.
+                    <br><small class="text-muted">Bron: Xeno-canto XC591621</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/zwanen/XC591621 - Tundra Swan - Cygnus columbianus.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+
+        <!-- Knobbelzwaan -->
+        <div class="card species-card">
+            <div class="species-header bg-danger">
+                <h3 class="species-name">Knobbelzwaan</h3>
+                <p class="species-latin">Cygnus olor</p>
+            </div>
+            <div class="card-body">
+                <div class="species-description">
+                    <strong>Geluid:</strong> Vooral het kenmerkende blazende geluid van de vleugels in de vlucht. Vocal geluiden zijn minder luid en vaak snuivend of sissend.
+                    <br><small class="text-muted">Bron: Xeno-canto XC669629</small>
+                </div>
+                <audio controls class="audio-player">
+                    <source src="audio/zwanen/XC669629 - Mute Swan - Cygnus olor.mp3" type="audio/mpeg">
+                    Je browser ondersteunt het audio element niet.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">Studiemateriaal voor de SOVON Winter en Watervogels cursus — Zie <a href="credits.txt" target="_blank" class="text-white text-decoration-underline">credits.txt</a> voor bronvermelding</p>
+            <p class="small mb-0">© 2025 Luistervogel — Ontworpen door <a href="https://github.com/iMartzen" target="_blank" rel="noopener noreferrer" class="text-white text-decoration-underline">iMartzen</a> met ❤️ voor de natuur</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
