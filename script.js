@@ -47,7 +47,7 @@ const birdsData = {
     exotischeGanzen: [
         { name: 'Sneeuwgans', latin: 'Anser caerulescens', audio: 'audio/exotischganzen/XC771795 - Sneeuwgans - Anser caerulescens.wav', description: 'Hoog, kakelend "kluk-kluk".' },
         { name: 'Ross\' Gans', latin: 'Anser rossii', audio: 'audio/exotischganzen/XC452082 - Ross\' Gans - Anser rossii.mp3', description: 'Hoger en zachter dan Sneeuwgans.' },
-        { name: 'Nijlgans', latin: 'Alopochen aegyptiaca', audio: 'audio/exotischganzen/XC800286 - Nijlgans - Alopochen aegyptiaca.mp3', description: 'Luid, krassend "haaa-haaa".' },
+        { name: 'Nijlgans', latin: 'Alopochen aegyptiaca', audio: 'audio/exotischganzen/XC361464 - Egyptian Goose - Alopochen aegyptiaca.mp3', description: 'Luid, krassend "haaa-haaa".' },
         { name: 'Casarca', latin: 'Tadorna ferruginea', audio: 'audio/exotischganzen/XC872213 - Casarca - Tadorna ferruginea.wav', description: 'Diep, rollend "aang aang".' },
         { name: 'Indische Gans', latin: 'Anser indicus', audio: 'audio/exotischganzen/XC452244 - Indische Gans - Anser indicus.mp3', description: 'Nasaal, kakelend "ahng-ahng".' },
         { name: 'Chinese Knobbelgans', latin: 'Anser cygnoides', audio: 'audio/exotischganzen/XC463609 - Zwaangans - Anser cygnoides.mp3', description: 'Luid, trompetterend "ohng-ohng".' },
