@@ -22,7 +22,7 @@ const birdsData = {
         { name: 'Eidereend', latin: 'Somateria mollissima', audio: 'audio/duikeenden/XC998232 - Eider - Somateria mollissima.mp3', description: 'Karakteristiek "aa-uuu" geluid.' }
     ],
     exotischeEenden: [
-        { name: 'Rosse Stekelstaart', latin: 'Oxyura jamaicensis', audio: 'audio/exotischeenden/XC665164 - Rosse Stekelstaart - Oxyura jamaicensis.mp3', description: 'Zacht, tikkend "plop-plop-plop".' },
+        { name: 'Rosse Stekelstaart', latin: 'Oxyura jamaicensis', audio: 'audio/exotischeenden/XC665165 - Ruddy Duck - Oxyura jamaicensis.mp3', description: 'Zacht, tikkend "plop-plop-plop".' },
         { name: 'Mandarijneend', latin: 'Aix galericulata', audio: 'audio/exotischeenden/XC721862 - Mandarijneend - Aix galericulata.mp3', description: 'Zacht, fluitend "uieb".' },
         { name: 'Muskuseend', latin: 'Cairina moschata', audio: 'audio/exotischeenden/XC714003 - Muskuseend - Cairina moschata.mp3', description: 'Zacht, sissend "pfffst".' },
         { name: 'Carolinaeend', latin: 'Aix sponsa', audio: 'audio/exotischeenden/XC600081 - Carolina-eend - Aix sponsa.mp3', description: 'Scherp "oe-eek" of "jiii-iik".' }
