@@ -56,7 +56,8 @@ const birdsData = {
     zwanen: [
         { name: 'Wilde Zwaan', latin: 'Cygnus cygnus', audio: 'audio/zwanen/XC670365 - Whooper Swan - Cygnus cygnus.mp3', description: 'Luide, trompetachtige roep.' },
         { name: 'Kleine Zwaan', latin: 'Cygnus columbianus', audio: 'audio/zwanen/XC591621 - Tundra Swan - Cygnus columbianus.mp3', description: 'Hoger en zachter dan Wilde zwaan.' },
-        { name: 'Knobbelzwaan', latin: 'Cygnus olor', audio: 'audio/zwanen/XC669629 - Mute Swan - Cygnus olor.mp3', description: 'Blazend geluid van vleugels.' }
+        { name: 'Knobbelzwaan', latin: 'Cygnus olor', audio: 'audio/zwanen/XC669629 - Mute Swan - Cygnus olor.mp3', description: 'Blazend geluid van vleugels.' },
+        { name: 'Zwarte Zwaan', latin: 'Cygnus atratus', audio: 'audio/zwanen/XC674006 - Black Swan - Cygnus atratus.mp3', description: 'Hoge, trompetachtige roep.' }
     ]
 };
 
