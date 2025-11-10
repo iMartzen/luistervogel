@@ -56,6 +56,35 @@ body {
     background: linear-gradient(135deg, #dc3545 0%, #b02a37 100%) !important;
 }
 
+/* Paarse header voor futenpagina's */
+.species-header.bg-purple {
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%) !important;
+}
+
+/* Paarse button styling */
+.btn-purple {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+    color: white;
+}
+
+.btn-outline-purple {
+    border-color: #9b59b6;
+    color: #9b59b6;
+}
+
+.btn-outline-purple:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+    color: white;
+}
+
 .species-name {
     font-size: 1.5rem;
     font-weight: 600;
