@@ -311,6 +311,32 @@ const birdsData = {
       description: "Hoog, trillend, hinnekend geluid.",
     },
   ],
+  rallen: [
+    {
+      name: "Waterral (roep)",
+      latin: "Rallus aquaticus",
+      audio: "audio/rallen/XC687660 - Waterral roep - Rallus aquaticus.mp3",
+      description: "Luide, schreeuwende roep.",
+    },
+    {
+      name: "Waterral (balts)",
+      latin: "Rallus aquaticus",
+      audio: "audio/rallen/XC640469 - Waterral balts - Rallus aquaticus.mp3",
+      description: "Baltsroep, snelle ritmische roepen.",
+    },
+    {
+      name: "Waterhoen",
+      latin: "Gallinula chloropus",
+      audio: "audio/rallen/XC688234 - Waterhoen - Gallinula chloropus.mp3",
+      description: 'Scherp "krrruk" of "kik" geluid.',
+    },
+    {
+      name: "Meerkoet",
+      latin: "Fulica atra",
+      audio: "audio/rallen/XC691456 - Meerkoet - Fulica atra.mp3",
+      description: 'Luid, explosief "kowt" of "pjok".',
+    },
+  ],
 };
 
 // Quiz functionaliteit

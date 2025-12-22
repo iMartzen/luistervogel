@@ -61,6 +61,11 @@ body {
     background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%) !important;
 }
 
+/* Oranje header voor rallenpagina's */
+.species-header.bg-orange {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+}
+
 /* Paarse button styling */
 .btn-purple {
     background-color: #9b59b6;
@@ -82,6 +87,30 @@ body {
 .btn-outline-purple:hover {
     background-color: #9b59b6;
     border-color: #9b59b6;
+    color: white;
+}
+
+/* Oranje button styling */
+.btn-orange {
+    background-color: #d97706;
+    border-color: #d97706;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #b45309;
+    border-color: #b45309;
+    color: white;
+}
+
+.btn-outline-orange {
+    border-color: #d97706;
+    color: #d97706;
+}
+
+.btn-outline-orange:hover {
+    background-color: #d97706;
+    border-color: #d97706;
     color: white;
 }
 
