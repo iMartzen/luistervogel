@@ -8,7 +8,7 @@ Luistervogel is een educatieve website ontwikkeld als studiemateriaal voor de **
 
 ## ✨ Functionaliteiten
 
-- **7 categorieën vogels:**
+- **8 categorieën vogels:**
   - Grondeleenden
   - Duikeenden
   - Exotische Eenden
@@ -16,6 +16,8 @@ Luistervogel is een educatieve website ontwikkeld als studiemateriaal voor de **
   - Branta Ganzen
   - Exotische Ganzen
   - Zwanen
+  - Futen
+  - Rallen
 
 - **Interactieve quiz** voor het testen van je kennis
 - **Geluidsfragmenten** van circa 2 minuten van Xeno-canto
@@ -44,6 +46,8 @@ Bezoek dan `http://localhost:8000` in je browser.
 - `branta-ganzen.html` - Pagina met Branta ganzen
 - `exotische-ganzen.html` - Pagina met exotische ganzen
 - `zwanen.html` - Pagina met zwanen
+- `futen.html` - Pagina met futen
+- `rallen.html` - Pagina met rallen
 - `quiz.html` - Interactieve quiz
 - `style.css` - Styling voor alle pagina's
 - `script.js` - JavaScript voor quiz functionaliteit
